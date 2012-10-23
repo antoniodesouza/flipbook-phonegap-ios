@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:gap="http://phonegap.com/ns/1.0"
+    id="com.phonegap.example"
+    version="1.0.0"
+    versionCode="10"
+    xmlns="http://www.w3.org/ns/widgets" >
+
+    <name>Flip Book</name>
+
+    <description>
+        This is a flip book
+    </description>
+
+    <author email="support@phonegap.com" href="https://build.phonegap.com" >
+        The author    </author>
+    
+    <preference name="orientation" value="landscape" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="fullscreen" value="false" />
+     
+    <icon src="icon.png" gap:platform="ios" width="72" height="72" />
+</widget>
