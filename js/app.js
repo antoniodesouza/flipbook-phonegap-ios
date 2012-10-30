@@ -118,7 +118,7 @@ $(document).bind('pageinit',function(){
                 
                 
     $("#btn-menu").bind('tap', function(){
-        $("#contenido").toggle();
+        $("#menu").toggle();
     });
                 
     $("#slidesContainer").bind('tap', function(){

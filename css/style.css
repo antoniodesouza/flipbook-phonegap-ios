@@ -122,6 +122,7 @@ body {
     width:19px;
 }
 #menu{
+    display: none;
     height:430px;
     left:60px;
     position:absolute;
