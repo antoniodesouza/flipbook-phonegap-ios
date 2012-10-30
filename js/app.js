@@ -2,7 +2,6 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 $(document).bind('pageinit',function(){
     var slideWidth = $(window).width();
     var slides = $('.slide');
@@ -23,8 +22,8 @@ $(document).bind('pageinit',function(){
     $('#slideInner').css('height', 748);
                 
     $(document).bind('vmouseup',evMouseUp);
-    $("#btn_left").bind('tap', evLeft);
-    $("#btn_right").bind('tap', evRight);
+    $("#left").bind('tap', evLeft);
+    $("#right").bind('tap', evRight);
     $("#contenido li").bind('tap', evContenido)
     $("#btn-inicio").bind('tap', evInicio);
                 
@@ -34,19 +33,19 @@ $(document).bind('pageinit',function(){
     });
                 
                             
-    $("#btn_menu").bind('tap', function(){
-        $("#menu").toggle();
+    $(document).bind('tap', function(){
+        $("#btn_menu").toggle();
     });
                 
     function manageControls(){
-        $("#btn_left").css('opacity','1');
-        $("#btn_right").css('opacity','1');
+        $("#left").css('opacity','1');
+        $("#right").css('opacity','1');
                 	
         if (position == 0){
-            $("#btn_left").css('opacity','0.5');
+            $("#left").css('opacity','0.5');
         }
         else if (position >= numberOfSlides-1){
-            $("#btn_right").css('opacity','0.5');
+            $("#right").css('opacity','0.5');
         }
     }
                 
@@ -99,8 +98,8 @@ $(document).bind('pageinit',function(){
                 
     function goToPage(page){
         $(document).unbind('vmouseup');
-        $("#btn_left").unbind('tap');
-        $("#btn_right").unbind('tap');
+        $("#left").unbind('tap');
+        $("#right").unbind('tap');
         $("#contenido li").unbind('tap');
         $("#btn-inicio").unbind('tap');
                 
@@ -109,14 +108,13 @@ $(document).bind('pageinit',function(){
             scrollLeft:slideWidth*page
             },500,'easeOutQuint',function(){
             $(document).bind('vmouseup',evMouseUp);
-            $("#btn_left").bind('tap', evLeft);
-            $("#btn_right").bind('tap', evRight);
+            $("#left").bind('tap', evLeft);
+            $("#right").bind('tap', evRight);
             $("#contenido li").bind('tap', evContenido)
             $("#btn-inicio").bind('tap', evInicio);
         });
         $("#num-slide").html(page+1);
     }
-                
                 
                 
     $("#btn-menu").bind('tap', function(){
@@ -135,4 +133,3 @@ $(document).bind('pageinit',function(){
         $(this).load('html/page'+contador+'.html');
     });
 });
-
