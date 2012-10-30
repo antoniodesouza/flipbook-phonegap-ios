@@ -59,8 +59,8 @@ body {
     background: -webkit-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* Chrome10+,Safari5.1+ */
     background: linear-gradient(to bottom, #6b6b6b 0%, #2c2c2c 85%); /* W3C */
     display:block;
-    height:43px;
-    padding:15px 0 0 0;
+    height:50px;
+    padding:50px 0 0 0;
     width:100%;
 }
 .logo{
