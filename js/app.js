@@ -19,7 +19,7 @@ $(document).bind('pageinit',function(){
                 
     // Set #slideInner width equal to total width of all slides
     $('#slideInner').css('width', slideWidth * numberOfSlides);
-    $('#slideInner').css('height', 748);
+    $('#slideInner').css('height', 511);
                 
     $(document).bind('vmouseup',evMouseUp);
     $("#left").bind('tap', evLeft);
