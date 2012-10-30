@@ -1,306 +1,64 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.5 user-scalable=yes">
         <title>Flip Book</title>
-        <link rel="stylesheet" type="text/css" href="jquery.mobile.structure-1.2.0.css"/>
-        <script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
-        <script type="text/javascript" charset="utf-8" src="cordova-2.1.0"></script>
-        <script type="text/javascript" charset="utf-8" src="jquery-1.8.2.min.js"></script>
-        <script type="text/javascript" charset="utf-8" src="jquery.mobile-1.2.0.min.js"></script>
-        <script type="text/javascript" charset="utf-8" src="jquery-ui.js"></script>
-        <script type="text/javascript">
-            $(document).bind('pageinit',function(){
-                var slideWidth = $(window).width();
-                var slides = $('.slide');
-                var numberOfSlides = slides.length;
-                var position = 0;
-                
-                manageControls();
-                $("#num-slide").html(position+1);
-                
-                // Wrap all .slides with #slideInner div
-                slides.wrapAll('<div id="slideInner"></div>').css({
-                    'display' : 'inline-block',
-                    'width' : slideWidth
-                });
-                
-                // Set #slideInner width equal to total width of all slides
-                $('#slideInner').css('width', slideWidth * numberOfSlides);
-                $('#slideInner').css('height', 748);
-                
-                $(document).bind('vmouseup',evMouseUp);
-                $("#left").bind('tap', evLeft);
-                $("#right").bind('tap', evRight);
-                $("#contenido li").bind('tap', evContenido)
-                $("#btn-inicio").bind('tap', evInicio);
-                
-                var currentScroll = 0;
-                $(document).bind('vmousedown', function(e){
-                    currentScroll = $("#slidesContainer").scrollLeft();
-                });
-                
-                            
-                $(document).bind('tap', function(){
-                    $("#btn_menu").toggle();
-                });
-                
-                function manageControls(){
-                    $("#left").css('opacity','1');
-                    $("#right").css('opacity','1');
-                	
-                    if (position == 0){
-                        $("#left").css('opacity','0.5');
-                    }
-                    else if (position >= numberOfSlides-1){
-                        $("#right").css('opacity','0.5');
-                    }
-                }
-                
-                function evRight(){
-                    if (position < numberOfSlides-1){
-                        position++;
-                        goToPage(position);
-                    }
-                }
-                
-                function evLeft(){
-                    if (position > 0){
-                        position--;
-                        goToPage(position);
-                    }
-                }
-                
-                function evContenido(){
-                    position = parseInt($(this).attr("rel"));
-                    goToPage(position);
-                    $("#contenido").hide();
-                }
-                
-                function evInicio(){
-                    position = 0;
-                    goToPage(position);
-                }
-                    
-                function evMouseUp(){
-                    if ($("#slidesContainer").scrollLeft() > currentScroll){
-                        var pos = ($("#slidesContainer").scrollLeft() + slideWidth)/slideWidth;
-                    }else
-                        if ($("#slidesContainer").scrollLeft() < currentScroll){
-                            var pos = ($("#slidesContainer").scrollLeft() - slideWidth)/slideWidth;
-                        }else{
-                        return false;
-                    }
-                    
-                    if (pos < 0){pos = 0;}
-                    if (pos > numberOfSlides-1){pos = numberOfSlides-1;}
-                    position = Math.round(pos);
-                    goToPage(position);
-             
-                }
-                
-                
-                function goToPage(page){
-                    $(document).unbind('vmouseup');
-                    $("#left").unbind('tap');
-                    $("#right").unbind('tap');
-                    $("#contenido li").unbind('tap');
-                    $("#btn-inicio").unbind('tap');
-                
-                    manageControls();
-                    $("#slidesContainer").animate({scrollLeft:slideWidth*page},500,'easeOutQuint',function(){
-                        $(document).bind('vmouseup',evMouseUp);
-                        $("#left").bind('tap', evLeft);
-                        $("#right").bind('tap', evRight);
-                        $("#contenido li").bind('tap', evContenido)
-                        $("#btn-inicio").bind('tap', evInicio);
-                    });
-                    $("#num-slide").html(page+1);
-                }
-                
-                
-                
-                $("#btn-menu").bind('tap', function(){
-                    $("#contenido").toggle();
-                });
-                
-                $("#slidesContainer").bind('tap', function(){
-                    $("#menu-bar").toggle();
-                    $("#slider-footer").toggle();
-                    $("#contenido").hide();
-                });
-                
-                var contador = 0;
-                $(".slide").each(function(){
-                    contador++;
-                    $(this).load('html/page'+contador+'.html');
-                });
-            });
-        </script>
-        <style>
-            body{
-                margin: 0;
-                padding: 0;
-            }
-            #container{
-                height:748px;
-                margin: 0;
-                max-height:748px;
-                padding: 0;                
-            }
-
-            #menu-bar{
-                background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
-                background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
-                display:none;
-                height: 40px;
-                opacity: 0.8;
-                width: 100%;
-                z-index: 9999;
-            }
-            
-            #menu-bar .btn-menu{
-                opacity: 1;
-                position: relative;
-                width: 32px;
-                height: 32px;
-                z-index: 9999;
-                cursor: pointer;
-                display: inline-block;
-                margin: 2px;
-                vertical-align: top;
-            }
-
-            #menu-bar #btn-menu{
-                background: url('images/list.png') no-repeat;
-            } 
-            #menu-bar #btn-inicio{
-                background: url('images/home.png') no-repeat;
-            }
-            #menu-bar #controles{
-                display: inline-block;
-                width: 200px;
-                cursor: default;
-            }
-            #menu-bar #controles #left{
-                background: url('images/arrow-left.png') no-repeat;
-            }
-            #menu-bar #controles #right{
-                background: url('images/arrow-right.png') no-repeat;
-            }
-            #menu-bar #controles #num-slide{
-                color: #FFFFFF;
-                line-height: 30px;
-                text-align: center;
-            }
-            #slideshow{
-                height:650px;
-                max-height:650px;
-            }
-            #slideshow #slidesContainer {
-                margin:0 auto;
-                width:100%;
-                overflow:auto; /* allow scrollbar */
-                position:relative;
-            }
-            #slideshow #slidesContainer .slide {
-                margin:0 auto;
-                height:650px;
-                max-height:650px;
-                width:100%; /* reduce by 20 pixels to avoid horizontal scroll */
-            }
-            #menu-bar #contenido{
-                list-style: none outside none;
-                margin: 0 0 0 45px;
-                padding: 0;
-                position: relative;
-                display:none;
-            }
-
-            #menu-bar #contenido li{
-                cursor: pointer;
-                height: 20px;
-                background: #fff;
-                border-bottom: solid #ccc 1px;
-                width: 100px;
-                padding:2px;
-                margin:0;
-            }
-
-            #slider-footer{
-                background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
-                background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
-                display : none;
-                height: 25px;
-                opacity: 0.8;
-                padding: 12px 0;
-                width: 100%;
-                z-index: 9999;
-            }
-            #slider-footer #slider-conte{
-                background: -moz-linear-gradient(top, rgba(245,247,249,1) 0%, rgba(215,222,227,1) 49%, rgba(229,235,238,1) 50%, rgba(246,248,249,1) 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,247,249,1)), color-stop(49%,rgba(215,222,227,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(100%,rgba(246,248,249,1))); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top, rgba(245,247,249,1) 0%,rgba(215,222,227,1) 49%,rgba(229,235,238,1) 50%,rgba(246,248,249,1) 100%); /* Chrome10+,Safari5.1+ */
-                border-radius: 30px;
-                height: 26px;
-                margin: 0 auto;
-                width: 98%;
-            }
-            #slider-footer #slider-conte #slider-btn{
-                background: -moz-linear-gradient(top, rgba(174,188,191,1) 0%, rgba(110,119,116,1) 50%, rgba(10,14,10,1) 51%, rgba(10,8,9,1) 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,1)), color-stop(50%,rgba(110,119,116,1)), color-stop(51%,rgba(10,14,10,1)), color-stop(100%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Chrome10+,Safari5.1+ */
-                border-radius: 20px;
-                height: 24px;
-                padding: 1px;
-                width: 6%;
-                left: 50%;
-            }
-        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.5 user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.2.0.css"/>
+        <script type="text/javascript" charset="utf-8" src="js/cordova-2.1.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/cordova.ios.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-ui.js"></script>        
+        <script type="text/javascript" charset="utf-8" src="js/app.js"></script>        
     </head>
     <body>
-        <section id="container">
-            <div id="menu-bar">
-                <div id="btn-inicio" class="btn-menu"></div>
-                <div id="btn-menu" class="btn-menu"></div>
-                <div id="controles">
-                    <div id="left" class="btn-menu"></div>
-                    <div id="num-slide" class="btn-menu"></div>
-                    <div id="right" class="btn-menu"></div>
+        <div id="container">
+            <div id="header">
+                <div class="menu">
+                    <div class="btn_home"><img src="images/btn_home.png" width="33" height="31" /></div>
+                    <div class="btn_menu"></div>
                 </div>
-                <ul id="contenido">
-                    <li rel="0">Pagina 1</li>
-                    <li rel="1">Pagina 2</li>
-                    <li rel="2">Pagina 3</li>
-                    <li rel="3">Pagina 4</li>
-                </ul>
+                <div class="logo"><img src="images/logo_arias.png" width="338" height="45" /></div>
             </div>
-            <div id="slideshow">
-                <div id="slidesContainer">
-                    <div class="slide">
-                        Pagina 1
-                    </div>
-                    <div class="slide">
-                        Pagina 2
-                    </div>
-                    <div class="slide">
-                        Pagina 3
-                    </div>
-                    <div class="slide">
-                        Pagina 4
+            <div id="content">
+                <div class="contenido">
+                    <div id="slideshow">
+                        <div id="slidesContainer">
+                            <div class="slide">
+                                Pagina 1
+                            </div>
+                            <div class="slide">
+                                Pagina 2
+                            </div>
+                            <div class="slide">
+                                Pagina 3
+                            </div>
+                            <div class="slide">
+                                Pagina 4
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="slider-footer">
-                <div id="slider-conte">
-                    <div id="slider-btn">
+            <div id="footer">
+                <div class="btn_left"></div>
+                <div class="barra_slider">
+                    <div class="btn_slider"></div>
+                </div>
+                <div class="btn_rigth"></div>
+            </div>
+            <div id="menu">
+                <div class="cabezote_menu"></div>
+                <div class="content_menu">
+                    <div class="content_inner">
+                        <ul>
+                            <li><img src="images/img_item1.jpg" width="83" height="83" />Residencial</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </body>
 </html>
