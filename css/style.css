@@ -8,7 +8,83 @@ body {
     margin:0 auto;
     width:1024px;
 }
-#header {
+/* Start CSS Content*/
+#container #content {
+    background:url(../images/bg_content.jpg) no-repeat top;
+    display:block;
+    height:511px;
+    padding:32px 0;
+    width:100%;
+}
+#container #content #nav-content {
+    background:#999;
+    height:511px;
+    width:1024px;
+}
+
+#container #content #nav-content #slideshow{
+    height:511px;
+    max-height:650px;
+}
+#container #content #nav-content #slideshow #slidesContainer {
+    margin:0 auto;
+    width:100%;
+    overflow:auto; /* allow scrollbar */
+    position:relative;
+}
+#container #content #nav-content #slideshow #slidesContainer .slide {
+    margin:0 auto;
+    height:511px;
+    max-height:511px;
+    width:100%; /* reduce by 20 pixels to avoid horizontal scroll */
+}
+/* End CSS Content*/
+/* Start CSS Footer*/
+#container #footer {
+    background: -moz-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6b6b6b), color-stop(85%, #2c2c2c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, #6b6b6b 0%, #2c2c2c 85%); /* W3C */
+    display:block;
+    height:53px;
+    padding:25px 0 0 0;
+    width:100%;
+}
+#container #footer #barra_slider{
+    background:url(../images/bg_barra_slider.jpg) repeat-x bottom;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display:inline-block;
+    height:25px;
+    width:784px;
+}
+#container #footer #barra_slider #btn_slider{
+    background:url(../images/btn_slider.jpg) top no-repeat;
+    cursor:pointer;
+    display:block;
+    height:25px;
+    width:54px;
+}
+#container #footer #btn_left{
+    background:url(../images/arrows.png) left top no-repeat;
+    cursor:pointer;
+    display:inline-block;
+    height:20px;
+    margin:0 6px 0 87px;
+    width:19px;
+}
+#container #footer #btn_right{
+    background:url(../images/arrows.png) right top no-repeat;
+    cursor:pointer;
+    display:inline-block;
+    height:20px;
+    margin:0 0 0 6px;
+    width:19px;
+}
+/* End CSS Footer*/
+/* Start CSS Header*/
+#container #header {
     background: -moz-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6b6b6b), color-stop(85%, #2c2c2c)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* Chrome10+,Safari5.1+ */
@@ -20,122 +96,49 @@ body {
     height:95px;
     width:100%;
 }
-#content {
-    background:url(../images/bg_content.jpg) no-repeat top;
-    display:block;
-    height:511px;
-    padding:32px 0;
-    width:100%;
-}
-.contenido{
-    background:#999;
-    height:511px;
-    width:1024px;
-}
-
-.contenido #slideshow{
-    height:511px;
-    max-height:650px;
-}
-.contenido #slideshow #slidesContainer {
-    margin:0 auto;
-    width:100%;
-    overflow:auto; /* allow scrollbar */
-    position:relative;
-}
-.contenido #slideshow #slidesContainer .slide {
-    margin:0 auto;
-    height:511px;
-    max-height:511px;
-    width:100%; /* reduce by 20 pixels to avoid horizontal scroll */
-}
-
-
-
-
-#footer {
-    background: -moz-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6b6b6b), color-stop(85%, #2c2c2c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #6b6b6b 0%, #2c2c2c 85%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom, #6b6b6b 0%, #2c2c2c 85%); /* W3C */
-    display:block;
-    height:53px;
-    padding:25px 0 0 0;
-    width:100%;
-}
-.logo{
+#container #header #logo{
     display:block;
     float:right;
     padding:24px 34px 0 0 ;
 }
-.menu{
+#container #header #menu{
     display:block;
     float:left;
     padding:36px 0 0 43px;
 }
-.btn_home{
+#container #header #menu #btn_home{
     margin-right: 20px;
     display:inline-block;
 }
-.btn_menu{
+#container #header #menu #btn_menu{
     background:url(../images/btn_menu.png) left top;
     cursor:pointer;
     display:inline-block;
     height:31px;
     width:89px;
 }
-.btn_menu:hover{
+#container #header #menu #btn_menu:hover{
     background:url(../images/btn_menu.png) right top;
     height:31px;
     width:89px;
 }
-.barra_slider{
-    background:url(../images/bg_barra_slider.jpg) repeat-x bottom;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    display:inline-block;
-    height:25px;
-    width:784px;
-}
-.btn_slider{
-    background:url(../images/btn_slider.jpg) top no-repeat;
-    cursor:pointer;
-    display:block;
-    height:25px;
-    width:54px;
-}
-.btn_left{
-    background:url(../images/arrows.png) left top no-repeat;
-    cursor:pointer;
-    display:inline-block;
-    height:20px;
-    margin:0 6px 0 87px;
-    width:19px;
-}
-.btn_rigth{
-    background:url(../images/arrows.png) right top no-repeat;
-    cursor:pointer;
-    display:inline-block;
-    height:20px;
-    margin:0 0 0 6px;
-    width:19px;
-}
-#menu{
+/* End CSS Header*/
+/* Start CSS Menu*/
+#container #menu_sections{
     display: none;
     height:430px;
-    left:60px;
+    left:14px;
     position:absolute;
-    top:85px;
+    top:67px;
     width:263px;
 }
-.cabezote_menu{
+#container #menu_sections #header_menu{
     background: url(../images/cabezote_menu.png) no-repeat top;
     display:block;
     height:55px;
     width:263px;
 }
-.content_menu{
+#container #menu_sections #content_menu{
     background:#0B1833;
     border:1px solid #0C0C0C;
     border-radius: 0 0 5px 5px;
@@ -145,7 +148,7 @@ body {
     padding:0 6px 6px 6px;
     width:249px;
 }
-.content_inner{
+#container #menu_sections #content_menu #content_inner{
     background:url(../images/bg_iner_menu.jpg) repeat-x top #E5E5E5;
     display:block;
     height:356px;
@@ -155,12 +158,12 @@ body {
     padding:8px;
     width:233px;
 }
-.content_inner ul{
+#container #menu_sections #content_menu #content_inner ul{
     list-style:none;
     margin:0;
     padding:0;
 }
-.content_inner ul li{
+#container #menu_sections #content_menu #content_inner ul li{
     color:#667083;
     display:block;
     height:83px;
@@ -169,7 +172,7 @@ body {
     text-shadow: #FFF 2px 2px 6px;
     width:233px;
 }
-.content_inner ul li img{
+#container #menu_sections #content_menu #content_inner ul li img{
     display: table-cell;
     padding:0 8px 0 0;
     text-align:left;
