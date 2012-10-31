@@ -1,5 +1,6 @@
 var slideWidth, slides, numberOfSlides, position, currentScroll;
 var slideInnerHeight = 511;
+var numSlides = 6
 var tools = {
     manageControls : function (){
         $("#btn_left").css('opacity','1');

@@ -1,0 +1,25 @@
+html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 238px;
+	min-height: 99px;
+	padding: 368px 36px 35px 750px;
+}
+
+#u191
+{
+	z-index: 2;
+	width: 238px;
+	position: relative;
+}
+
+#u191_img
+{
+	vertical-align: top;
+}
+

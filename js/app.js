@@ -3,6 +3,10 @@
  * and open the template in the editor.
  */
 $(document).bind('pageinit',function(){
+	for(i=0; i< numSlides; i++){
+		$('#slidesContainer').append('<div class="slide"></div>');
+	}
+    
     slideWidth = $(window).width();
     slides = $('.slide');
     numberOfSlides = slides.length;

@@ -1,0 +1,293 @@
+html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1024px;
+	min-height: 511px;
+}
+
+#u3110
+{
+	z-index: 2;
+	width: 163px;
+	border-color: #000000;
+	background-color: #697586;
+	padding-bottom: 9px;
+	position: relative;
+	margin-right: -163px;
+	margin-top: 298px;
+	left: 26px;
+}
+
+#u992-4
+{
+	z-index: 4;
+	width: 126px;
+	min-height: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 19px;
+	letter-spacing: 0px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -126px;
+	margin-top: 3px;
+	left: 18px;
+}
+
+#u3111
+{
+	z-index: 3;
+	width: 380px;
+	border-color: #000000;
+	background-color: #697586;
+	padding-bottom: 40px;
+	position: relative;
+	margin-right: -380px;
+	margin-top: 326px;
+}
+
+#u1028-12
+{
+	z-index: 42;
+	width: 269px;
+	min-height: 106px;
+	color: #FFFFFF;
+	text-align: right;
+	font-size: 17px;
+	letter-spacing: 0px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -269px;
+	margin-top: 40px;
+	left: 33px;
+}
+
+#u1025
+{
+	z-index: 40;
+	width: 3px;
+	position: relative;
+	margin-right: -3px;
+	margin-top: 44px;
+	left: 310px;
+}
+
+#u1025_clip
+{
+	overflow: hidden;
+	width: 3px;
+	height: 96px;
+}
+
+#u1025_img
+{
+	margin-top: -20px;
+	margin-bottom: -38px;
+}
+
+#u1004
+{
+	z-index: 8;
+	width: 133px;
+	position: relative;
+	margin-right: -133px;
+	left: 380px;
+}
+
+#u1009
+{
+	z-index: 10;
+	width: 512px;
+	position: relative;
+	margin-right: -512px;
+	left: 512px;
+}
+
+#u1004_img,#u1009_img
+{
+	vertical-align: top;
+}
+
+#u979
+{
+	z-index: 12;
+	width: 644px;
+	border-color: #000000;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.4);
+	-pie-background: rgba(0, 0, 0, 0.4);
+	padding-bottom: 20px;
+	position: relative;
+	margin-right: -644px;
+	margin-top: 326px;
+	left: 380px;
+}
+
+#u983-4
+{
+	z-index: 13;
+	width: 254px;
+	min-height: 138px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 12px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+	margin-right: -254px;
+	margin-top: 18px;
+	left: 124px;
+}
+
+#u981-4
+{
+	z-index: 17;
+	width: 242px;
+	min-height: 148px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 12px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+	margin-right: -242px;
+	margin-top: 18px;
+	left: 387px;
+}
+
+#u1017
+{
+	z-index: 21;
+	width: 529px;
+	border-color: #000000;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.4);
+	-pie-background: rgba(0, 0, 0, 0.4);
+	position: relative;
+	margin-right: -529px;
+	margin-top: 306px;
+	left: 495px;
+}
+
+#u1016-4
+{
+	z-index: 22;
+	width: 254px;
+	min-height: 17px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 17px;
+	letter-spacing: 0px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -254px;
+	left: 9px;
+}
+
+#u1020-4
+{
+	z-index: 26;
+	width: 163px;
+	min-height: 19px;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 17px;
+	letter-spacing: 0px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -163px;
+	left: 273px;
+}
+
+#u988
+{
+	z-index: 30;
+	width: 965px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-right: -965px;
+	margin-top: 40px;
+	left: 45px;
+}
+
+#u989
+{
+	z-index: 31;
+	width: 3px;
+	height: 65px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-right: -3px;
+	margin-top: 43px;
+	left: 521px;
+}
+
+#u993-4
+{
+	z-index: 32;
+	position: relative;
+	width: 67px;
+	margin-right: -67px;
+	margin-top: 57px;
+	left: 532px;
+}
+
+#u993-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u994-4
+{
+	z-index: 36;
+	width: 232px;
+	min-height: 39px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -232px;
+	margin-top: 84px;
+	left: 619px;
+}
+
+#u3113-8
+{
+	z-index: 54;
+	width: 130px;
+	min-height: 69px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+	margin-right: -130px;
+	margin-top: 49px;
+	left: 237px;
+}
+
+#u3113-2,#u3113-4,#u3113-5
+{
+	font-size: 12px;
+	text-align: right;
+	color: #7F7F7F;
+	font-style: italic;
+}
+
+#u3113-6
+{
+	font-size: 13px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+

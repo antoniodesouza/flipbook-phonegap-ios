@@ -1,0 +1,32 @@
+html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1024px;
+	min-height: 512px;
+}
+
+#u3187
+{
+	z-index: 2;
+	width: 512px;
+	margin-left: 513px;
+	position: relative;
+}
+
+#u3187_clip
+{
+	overflow: hidden;
+	width: 512px;
+	height: 512px;
+}
+
+#u3187_img
+{
+	margin: -5px -8px -10px -7px;
+}
+
