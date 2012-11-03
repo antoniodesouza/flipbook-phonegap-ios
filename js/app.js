@@ -3,18 +3,20 @@
  * and open the template in the editor.
  */
 $(document).bind('pageinit',function(){
-	for(i=0; i< numSlides; i++){
-		$('#slidesContainer').append('<div class="slide"></div>');
-	}
-    
+    for(i=0; i< numSlides; i++){
+        $('#slidesContainer').append('<div class="slide"></div>');
+    }
+    maxLeft = $("#barra_slider").width() - $("#btn_slider").width();
     slideWidth = $(window).width();
     slides = $('.slide');
     numberOfSlides = slides.length;
     position = 0;
     currentScroll = 0;
+    btnWidth = maxLeft/numberOfSlides; 
                 
     tools.manageControls();
     tools.loadSlides();
+    tools.loadDraggable();
                 
     // Wrap all .slides with #slideInner div
     slides.wrapAll('<div id="slideInner"></div>').css({

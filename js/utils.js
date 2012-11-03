@@ -1,6 +1,6 @@
-var slideWidth, slides, numberOfSlides, position, currentScroll;
+var slideWidth, slides, numberOfSlides, position, currentScroll, maxLeft, btnWidth;
 var slideInnerHeight = 511;
-var numSlides = 6
+var numSlides = 6;
 var tools = {
     manageControls : function (){
         $("#btn_left").css('opacity','1');
@@ -91,5 +91,14 @@ var tools = {
     },
     updateScroll : function(){
         currentScroll = $("#slidesContainer").scrollLeft();
+    },
+    loadDraggable : function(){
+        $("#btn_slider").draggable({
+            containment : "parent",
+            stop : function(event,ui){
+                position = Math.round(ui.position.left / btnWidth);
+                tools.goToPage(position);
+            }
+        });
     }
 }

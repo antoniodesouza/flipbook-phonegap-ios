@@ -60,7 +60,7 @@ body {
     width:784px;
 }
 #container #footer #barra_slider #btn_slider{
-    background:url(../images/btn_slider.jpg) top no-repeat;
+    background:url(../images/btn_slider.jpg) left top no-repeat;
     cursor:pointer;
     display:block;
     height:25px;
