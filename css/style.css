@@ -193,6 +193,7 @@ body {
     font-size:18px;
     line-height:83px;
     text-shadow: #FFF 2px 2px 6px;
+	vertical-align : top;
     width:233px;
 }
 #container #menu_sections #content_menu #content_inner ul li img{
