@@ -190,14 +190,14 @@ body {
     color:#667083;
     display:block;
     height:83px;
-    font-size:23px;
+    font-size:22px;
     line-height:83px;
     text-shadow: #FFF 2px 2px 6px;
     width:233px;
 }
 #container #menu_sections #content_menu #content_inner ul li img{
     display: table-cell;
-    padding:0 8px 0 0;
+    padding:0 5px 0 0;
     text-align:left;
     vertical-align:middle;
 }
