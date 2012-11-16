@@ -34,6 +34,11 @@ var tools = {
         $("#nav-content").hide();
     },
                 
+    evOptMenu : function (){
+        position = parseInt($(this).attr("rel"));
+        tools.goToPage(position);
+    },
+                
     evHome : function (){
         position = 0;
         tools.goToPage(position);
@@ -76,6 +81,7 @@ var tools = {
             $("#nav-content li").bind('tap', tools.evContent)
             $("#btn_home").bind('tap', tools.evHome);
         });
+		$("#menu_sections").hide();
     //        $("#num-slide").html(page+1);
     },
     showHideMenu : function(){

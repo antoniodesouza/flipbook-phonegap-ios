@@ -153,6 +153,7 @@ body {
     position:absolute;
     top:67px;
     width:263px;
+	z-index : 99999;
 }
 #container #menu_sections #header_menu{
     background: url(../images/cabezote_menu.png) no-repeat top;
