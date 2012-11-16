@@ -47,17 +47,18 @@ body {
     max-height:511px;
 }
 #container #content #nav-content #slideshow #slidesContainer {
-    margin:0 auto;
-    width:100%;
-    overflow-x:scroll;
-    overflow-y:hidden;
-    position:relative;
+    height: 511px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    width: 1024px;
 }
 #container #content #nav-content #slideshow #slidesContainer .slide {
     margin:0 auto;
     height:511px;
     max-height:511px;
-    width:100%; /* reduce by 20 pixels to avoid horizontal scroll */
+    width:1024px; /* reduce by 20 pixels to avoid horizontal scroll */
 }
 /* End CSS Content*/
 /* Start CSS Footer*/
