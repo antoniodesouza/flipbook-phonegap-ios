@@ -1,0 +1,255 @@
+#u2703-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2703-4:hover
+{
+	background-color: transparent;
+}
+
+#u2703-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2696-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2703-4.MuseLinkActive,#u2696-4:hover
+{
+	background-color: transparent;
+}
+
+#u2703-4.MuseLinkActive p,#u2696-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2694-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2696-4.MuseLinkActive,#u2694-4:hover
+{
+	background-color: transparent;
+}
+
+#u2696-4.MuseLinkActive p,#u2694-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2685-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2694-4.MuseLinkActive,#u2685-4:hover
+{
+	background-color: transparent;
+}
+
+#u2694-4.MuseLinkActive p,#u2685-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2688-4,#u2705-4,#u2695-4,#u2692-4,#u2699-4,#u2704-4,#u2693-4,#u2687-4
+{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2700-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2685-4.MuseLinkActive,#u2700-4:hover
+{
+	background-color: transparent;
+}
+
+#u2685-4.MuseLinkActive p,#u2700-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2683-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2700-4.MuseLinkActive,#u2683-4:hover
+{
+	background-color: transparent;
+}
+
+#u2700-4.MuseLinkActive p,#u2683-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2698-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2683-4.MuseLinkActive,#u2698-4:hover
+{
+	background-color: transparent;
+}
+
+#u2683-4.MuseLinkActive p,#u2698-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2684-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #6F6F6F;
+	font-size: 17px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2698-4.MuseLinkActive,#u2684-4:hover
+{
+	background-color: transparent;
+}
+
+#u2698-4.MuseLinkActive p,#u2684-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+
+#u2701,#u2690
+{
+	position: relative;
+}
+
+#u2701_img,#u2690_img
+{
+	vertical-align: top;
+}
+
+#u2713-4
+{
+	background-color: transparent;
+	line-height: 0.99;
+	text-align: center;
+	font-size: 13px;
+	color: #3C3B3B;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2684-4.MuseLinkActive,#u2713-4:hover
+{
+	background-color: transparent;
+}
+
+#u2713-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+	line-height: 1.17;
+}
+
+#u2714-4
+{
+	background-color: transparent;
+	line-height: 0.99;
+	text-align: center;
+	font-size: 13px;
+	color: #3C3B3B;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2713-4.MuseLinkActive,#u2714-4:hover
+{
+	background-color: transparent;
+}
+
+#u2714-4.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u2714-4:hover p
+{
+	color: #F7931E;
+	visibility: inherit;
+	line-height: 1.17;
+}
+
+#u2684-4.MuseLinkActive p,#u2713-4.MuseLinkActive p,#u2714-4.MuseLinkActive p
+{
+	color: #F7931E;
+	visibility: inherit;
+}
+

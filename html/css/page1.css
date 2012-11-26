@@ -1,0 +1,75 @@
+html
+{
+	background: #7F7F7F url("../images/fondo.jpg") repeat left top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1024px;
+}
+
+#pu107
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	margin-top: 616px;
+	left: 319px;
+}
+
+#u107
+{
+	z-index: 3;
+	width: 562px;
+	margin-right: -562px;
+}
+
+#pu119
+{
+	position: relative;
+}
+
+#u119
+{
+	z-index: 6;
+	width: 577px;
+	position: relative;
+	margin-right: -577px;
+}
+
+#u119_img
+{
+	vertical-align: top;
+}
+
+#u125
+{
+	z-index: 8;
+	width: 38px;
+	height: 77px;
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	position: relative;
+	margin-right: -38px;
+	margin-top: 250px;
+	left: 569px;
+	background: transparent url("../images/boton-der.png") no-repeat left top;
+}
+
+#u125:hover
+{
+	background-image: url("../images/boton-der2.png");
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 250px -38px 0px 0px;
+}
+

@@ -1,0 +1,605 @@
+html
+{
+	background: #7F7F7F url("../images/fondo.jpg") repeat left top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1024px;
+	height:510px;
+}
+
+#pppu275-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	margin-top: 31px;
+	left: 44px;
+}
+
+#ppu275-4
+{
+	width: 0.01px;
+	margin-left: 70px;
+	position: relative;
+}
+
+#pu275-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	left: 153px;
+}
+
+#u275-4
+{
+	z-index: 11;
+	width: 105px;
+	min-height: 17px;
+	margin-right: -105px;
+	margin-top: 1px;
+	left: 1px;
+}
+
+#u283-4
+{
+	z-index: 43;
+	width: 105px;
+	min-height: 17px;
+	margin-right: -105px;
+}
+
+#u283-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -105px 0px 0px;
+}
+
+#u283-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -105px 0px 0px;
+}
+
+#pu277-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	left: 380px;
+}
+
+#u277-4
+{
+	z-index: 19;
+	width: 82px;
+	min-height: 17px;
+	margin-right: -82px;
+	margin-top: 1px;
+	left: 1px;
+}
+
+#u285-4
+{
+	z-index: 51;
+	width: 82px;
+	min-height: 17px;
+	margin-right: -82px;
+}
+
+#u285-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -82px 0px 0px;
+}
+
+#u285-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -82px 0px 0px;
+}
+
+#pu279-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	left: 566px;
+}
+
+#u279-4
+{
+	z-index: 27;
+	width: 93px;
+	min-height: 17px;
+	margin-right: -93px;
+	margin-top: 1px;
+	left: 1px;
+}
+
+#u287-4
+{
+	z-index: 59;
+	width: 93px;
+	min-height: 17px;
+	margin-right: -93px;
+}
+
+#u287-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -93px 0px 0px;
+}
+
+#u287-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -93px 0px 0px;
+}
+
+#pu281-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	left: 837px;
+}
+
+#u281-4
+{
+	z-index: 35;
+	width: 112px;
+	min-height: 17px;
+	margin-right: -112px;
+	margin-top: 1px;
+	left: 1px;
+}
+
+#u289-4
+{
+	z-index: 67;
+	width: 112px;
+	min-height: 17px;
+	margin-right: -112px;
+}
+
+#u289-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -112px 0px 0px;
+}
+
+#u289-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -112px 0px 0px;
+}
+
+#u274-4
+{
+	z-index: 7;
+	width: 145px;
+	min-height: 17px;
+	margin-right: -145px;
+	margin-top: 1px;
+	left: 1px;
+}
+
+#u276-4
+{
+	z-index: 15;
+	width: 104px;
+	min-height: 17px;
+	margin-right: -104px;
+	margin-top: 1px;
+	left: 266px;
+}
+
+#u278-4
+{
+	z-index: 23;
+	width: 57px;
+	min-height: 17px;
+	margin-right: -57px;
+	margin-top: 1px;
+	left: 484px;
+}
+
+#u280-4
+{
+	z-index: 31;
+	width: 147px;
+	min-height: 17px;
+	margin-right: -147px;
+	margin-top: 1px;
+	left: 678px;
+}
+
+#u282-4
+{
+	z-index: 39;
+	width: 145px;
+	min-height: 17px;
+	margin-right: -145px;
+}
+
+#u282-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -145px 0px 0px;
+}
+
+#u282-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -145px 0px 0px;
+}
+
+#u284-4
+{
+	z-index: 47;
+	width: 104px;
+	min-height: 17px;
+	margin-right: -104px;
+	left: 265px;
+}
+
+#u284-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -104px 0px 0px;
+}
+
+#u284-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -104px 0px 0px;
+}
+
+#u286-4
+{
+	z-index: 55;
+	width: 57px;
+	min-height: 17px;
+	margin-right: -57px;
+	left: 483px;
+}
+
+#u286-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -57px 0px 0px;
+}
+
+#u286-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -57px 0px 0px;
+}
+
+#u288-4
+{
+	z-index: 63;
+	width: 147px;
+	min-height: 17px;
+	margin-right: -147px;
+	left: 677px;
+}
+
+#u288-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -147px 0px 0px;
+}
+
+#u288-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 17px;
+	margin: 0px -147px 0px 0px;
+}
+
+#u266
+{
+	z-index: 3;
+	width: 1112px;
+	margin-top: 3px;
+}
+
+#u264
+{
+	z-index: 5;
+	width: 1101px;
+	margin-left: 6px;
+}
+
+#pu306
+{
+	width: 1024px;
+	position: relative;
+}
+
+#u306
+{
+	z-index: 72;
+	width: 38px;
+	height: 77px;
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	position: relative;
+	margin-right: -38px;
+	margin-top: 241px;
+	background: transparent url("../images/boton-izq.png") no-repeat left top;
+}
+
+#u306:hover
+{
+	background-image: url("../images/boton-izq2.png");
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 241px -38px 0px 0px;
+}
+
+#u316
+{
+	z-index: 73;
+	width: 512px;
+	position: absolute;
+}
+
+#u318
+{
+	z-index: 75;
+	width: 512px;
+	position: absolute;
+	left: 512px;
+}
+
+#u316_img,#u318_img
+{
+	vertical-align: top;
+}
+
+#u320
+{
+	z-index: 77;
+	width: 512px;
+	height: 152px;
+	border-color: #000000;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.51);
+	-pie-background: rgba(0, 0, 0, 0.51);
+	position: absolute;
+	margin-top: 329px;
+	left: 0;
+	padding-bottom: 30px;
+}
+
+#u321
+{
+	z-index: 78;
+	width: 512px;
+	border-color: #000000;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.51);
+	-pie-background: rgba(0, 0, 0, 0.51);
+	padding-bottom: 30px;
+	position: absolute;
+	margin-top: 329px;
+	left: 512px;
+	height:152px;
+}
+
+#u326-6
+{
+	z-index: 89;
+	width: 245px;
+	min-height: 146px;
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: absolute;
+	margin-top: 15px;
+	left: -20px;
+}
+
+#u328-4
+{
+	z-index: 106;
+	width: 242px;
+	min-height: 117px;
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: absolute;
+	margin-top: 15px;
+	left: 240px;
+}
+
+#u322
+{
+	z-index: 79;
+	width: 960px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #000000;
+	position: absolute;
+	margin-top: 23px;
+	left: 20px;
+}
+
+#u323
+{
+	z-index: 80;
+	width: 3px;
+	height: 65px;
+	border-color: #000000;
+	background-color: #000000;
+	position: relative;
+	margin-right: -3px;
+	margin-top: 26px;
+	left: 535px;
+}
+
+#u324-4
+{
+	z-index: 81;
+	position: relative;
+	width: 67px;
+	margin-right: -67px;
+	margin-top: 39px;
+	left: 545px;
+}
+
+#u324-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u325-4
+{
+	z-index: 85;
+	width: 232px;
+	min-height: 39px;
+	letter-spacing: 0px;
+	color: #000000;
+	font-size: 22px;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	position: absolute;
+	margin-top: 68px;
+	left: 660px;
+}
+
+#u327-11
+{
+	z-index: 95;
+	width: 130px;
+	min-height: 69px;
+	color: #FFFFFF;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+	margin-right: -130px;
+	margin-top: 36px;
+	left: 5px;
+}
+
+#u327-2,#u327-4,#u327-6,#u327-8
+{
+	font-size: 12px;
+	text-align: right;
+	font-style: italic;
+}
+
+#u327-9
+{
+	font-size: 13px;
+	text-align: justify;
+}
+
+#u329
+{
+	z-index: 110;
+	width: 38px;
+	height: 77px;
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	position: relative;
+	margin-right: -38px;
+	margin-top: 219px;
+	left: 1150px;
+	background: transparent url("../images/boton-der.png") no-repeat left top;
+}
+
+#u329:hover
+{
+	background-image: url("../images/boton-der2.png");
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 219px -38px 0px 0px;
+}
+
+#u330
+{
+	z-index: 111;
+	width: 163px;
+	border-color: #000000;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.51);
+	-pie-background: rgba(0, 0, 0, 0.51);
+	position: relative;
+	margin-right: -163px;
+	margin-top: 337px;
+	left: 85px;
+}
+
+#u331-4
+{
+	z-index: 112;
+	width: 163px;
+	min-height: 39px;
+	text-align: center;
+	font-size: 19px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-weight: 400;
+	margin-bottom: -19px;
+	position: relative;
+	margin-right: -163px;
+	margin-top: 2px;
+}
+
