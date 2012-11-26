@@ -550,10 +550,10 @@ html
 	width: 163px;
 	min-height: 20px;
 	text-align: left;
-	font-size: 17px;
+	font-size: 13px;
 	letter-spacing: 0px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-bottom: -2px;
 	position: absolute;
@@ -567,10 +567,10 @@ html
 	width: 220px;
 	min-height: 17px;
 	text-align: left;
-	font-size: 17px;
+	font-size: 13px;
 	letter-spacing: 0px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-bottom: -2px;
 	position: absolute;
@@ -584,10 +584,10 @@ html
 	width: 206px;
 	min-height: 19px;
 	text-align: left;
-	font-size: 17px;
+	font-size: 13px;
 	letter-spacing: 0px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-bottom: -1px;
 	position:absolute;
@@ -642,7 +642,7 @@ html
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	font-size: 22px;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: absolute;
 	margin-top: 67px;

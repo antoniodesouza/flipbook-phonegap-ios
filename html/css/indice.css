@@ -428,8 +428,8 @@ html
 	min-height: 57px;
 	text-align: center;
 	color: #FFFFFF;
-	font-size: 50px;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-size: 30px;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-bottom: -11px;
 	position: relative;
@@ -468,11 +468,11 @@ html
 	z-index: 88;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -482,11 +482,11 @@ html
 	z-index: 112;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-top: 20px;
 	position: relative;
@@ -497,13 +497,13 @@ html
 	z-index: 100;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
-	margin-top: 19px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -512,13 +512,13 @@ html
 	z-index: 124;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
-	margin-top: 20px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -546,11 +546,11 @@ html
 	z-index: 84;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -560,11 +560,11 @@ html
 	z-index: 108;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	margin-top: 20px;
 	position: relative;
@@ -575,13 +575,13 @@ html
 	z-index: 96;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
-	margin-top: 19px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -590,13 +590,13 @@ html
 	z-index: 120;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
-	margin-top: 20px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -615,7 +615,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -628,7 +628,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -642,7 +642,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -658,7 +658,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -673,7 +673,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -688,7 +688,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -702,7 +702,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -717,7 +717,7 @@ html
 	width: 187px;
 	min-height: 17px;
 	background-color: transparent;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
@@ -731,11 +731,11 @@ html
 	z-index: 132;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -748,11 +748,11 @@ html
 	z-index: 136;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -764,12 +764,12 @@ html
 {
 	z-index: 144;
 	width: 31px;
-	min-height: 17px;
-	line-height: 0.99;
+	min-height: 13px;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -782,11 +782,11 @@ html
 	z-index: 148;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -798,12 +798,12 @@ html
 {
 	z-index: 156;
 	width: 31px;
-	min-height: 17px;
-	line-height: 0.99;
+	min-height: 13px;
+	line-height:  1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -816,11 +816,11 @@ html
 	z-index: 160;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
@@ -833,15 +833,15 @@ html
 	z-index: 168;
 	width: 31px;
 	min-height: 17px;
-	line-height: 0.99;
+	line-height: 1.1em;
 	text-align: left;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
-	margin-top: 171px;
+	margin-top: 174px;
 	left: 228px;
 }
 
@@ -849,16 +849,16 @@ html
 {
 	z-index: 172;
 	width: 31px;
-	min-height: 17px;
-	line-height: 0.99;
+	min-height: 13px;
+	line-height:  1.1em;
 	text-align: right;
-	font-size: 20px;
+	font-size: 13px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS", "BEBAS-2", sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -31px;
-	margin-top: 171px;
+	margin-top: 174px;
 	left: 171px;
 }
 
