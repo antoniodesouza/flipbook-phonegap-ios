@@ -24,6 +24,10 @@ $(document).bind('pageinit',function(){
         'width' : slideWidth
     });
 	
+	$('#content_inner').jScrollTouch({
+		displayScrollBar : true
+	});
+	
     // Set #slideInner width equal to total width of all slides
     $('#slideInner').css('width', slideWidth * numberOfSlides);
     $('#slideInner').css('height', slideInnerHeight);
