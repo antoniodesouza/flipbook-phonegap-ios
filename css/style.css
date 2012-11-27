@@ -177,7 +177,8 @@ body {
     border-radius:5px;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
-	overflow: auto;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
     padding:8px;
     width:233px;
 }

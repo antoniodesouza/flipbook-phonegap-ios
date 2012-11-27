@@ -106,8 +106,5 @@ var tools = {
                 tools.goToPage(position);
             }
         });
-    },
-	touchMove : function(event) {
-		event.preventDefault();
-	}
+    }
 }
