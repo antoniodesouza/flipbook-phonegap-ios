@@ -38,4 +38,5 @@ $(document).bind('pageinit',function(){
     $('#btn_menu').bind('tap', tools.showHideMenu);
     $("#content_inner li").bind('tap', tools.evOptMenu);
     $(document).bind('vmousedown', tools.updateScroll);
+    $("#content_inner").bind('scrollstart', tools.touchMove);
 });
