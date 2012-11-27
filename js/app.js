@@ -23,7 +23,7 @@ $(document).bind('pageinit',function(){
         'display' : 'inline-block',
         'width' : slideWidth
     });
-                
+	
     // Set #slideInner width equal to total width of all slides
     $('#slideInner').css('width', slideWidth * numberOfSlides);
     $('#slideInner').css('height', slideInnerHeight);
