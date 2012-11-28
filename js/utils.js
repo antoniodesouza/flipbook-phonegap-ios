@@ -37,6 +37,10 @@ var tools = {
     evOptMenu : function (){
         position = parseInt($(this).attr("rel"));
         tools.goToPage(position);
+        
+        $(this).parent().children("ul").each(function(){
+            $("#menu_sections").show();
+        }).toggle();
     },
                 
     evHome : function (){
@@ -82,8 +86,8 @@ var tools = {
             $("#btn_home").bind('tap', tools.evHome);
         });
 		$("#menu_sections").hide();
-    //        $("#num-slide").html(page+1);
-    console.log(page);
+		$(".submenu").hide();
+        console.log(page);
     },
     showHideMenu : function(){
         $("#menu_sections").toggle();
