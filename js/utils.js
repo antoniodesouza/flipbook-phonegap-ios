@@ -87,6 +87,7 @@ var tools = {
         });
 		$("#menu_sections").hide();
 		$(".submenu").hide();
+		$("#btn_slider").animate({left: btnWidth * page}, 500);
         console.log(page);
     },
     showHideMenu : function(){
