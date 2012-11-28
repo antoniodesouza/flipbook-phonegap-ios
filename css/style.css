@@ -190,7 +190,7 @@ body {
 #container #menu_sections #content_menu #content_inner ul li{
     color:#667083;
     display:block;
-    height:83px;
+    min-height:83px;
     font-size:18px;
     line-height:83px;
     text-shadow: #FFF 2px 2px 6px;
@@ -202,4 +202,16 @@ body {
     padding:0 5px 0 0;
     text-align:left;
     vertical-align:middle;
+}
+
+#container #menu_sections #content_menu #content_inner ul.submenu{
+    background: #fff;
+    margin: 0 0 0 5px;
+    display: none;
+}
+
+#container #menu_sections #content_menu #content_inner ul.submenu li{
+    min-height: 20px;
+    height: 20px;
+    line-height: 0;
 }

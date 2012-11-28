@@ -83,6 +83,7 @@ var tools = {
         });
 		$("#menu_sections").hide();
     //        $("#num-slide").html(page+1);
+    console.log(page);
     },
     showHideMenu : function(){
         $("#menu_sections").toggle();
