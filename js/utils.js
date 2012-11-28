@@ -36,11 +36,13 @@ var tools = {
                 
     evOptMenu : function (){
         position = parseInt($(this).attr("rel"));
-        tools.goToPage(position);
         
-        $(this).parent().children("ul").each(function(){
-            $("#menu_sections").show();
-        }).toggle();
+        if ($(this).parent().children("ul").length > 0){
+            $(this).parent().children("ul").toggle();
+            tools.goToPage(position, false);
+        }else{
+            tools.goToPage(position, true);
+        }
     },
                 
     evHome : function (){
@@ -69,7 +71,9 @@ var tools = {
              
     },
                 
-    goToPage : function (page){
+    goToPage : function (page, hideMenu){
+        hideMenu = typeof hideMenu !== 'undefined' ? hideMenu : true;
+        
         $(document).unbind('vmouseup');
         $("#left").unbind('tap');
         $("#right").unbind('tap');
@@ -85,10 +89,11 @@ var tools = {
             $("#nav-content li").bind('tap', tools.evContent)
             $("#btn_home").bind('tap', tools.evHome);
         });
-		$("#menu_sections").hide();
-		$(".submenu").hide();
 		$("#btn_slider").animate({left: btnWidth * page}, 500);
-        console.log(page);
+        if (hideMenu){
+    		$(".submenu").hide();
+    		$("#menu_sections").hide();
+        }
     },
     showHideMenu : function(){
         $("#menu_sections").toggle();
