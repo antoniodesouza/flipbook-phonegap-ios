@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 $(document).bind('pageinit',function(){
-/*    for(i=0; i< numSlides; i++){
+    for(i=0; i< numSlides; i++){
         $('#slidesContainer').append('<div id="'+i+'" class="slide"></div>');
-    }*/
+    }
     maxLeft = $("#barra_slider").width() - $("#btn_slider").width();
     slideWidth = $(window).width();
     slides = $('.slide');
@@ -29,7 +29,7 @@ $(document).bind('pageinit',function(){
     $('#slideInner').css('height', slideInnerHeight);
 
     $(document).bind('vmouseup',tools.evMouseUp);
-    $("#header_menu").bind('tap', tools.evGoBack);
+    $("#back_menu").bind('tap', tools.evGoBack);
     $("#btn_left").bind('tap', tools.evLeft);
     $("#btn_right").bind('tap', tools.evRight);
     $("#nav-content li").bind('tap', tools.evContent);

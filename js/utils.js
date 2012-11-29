@@ -42,6 +42,7 @@ var tools = {
         	$(".menu").hide();
         	$(".submenu").hide();
         	$("#content_inner").scrollTop(0);
+			$("#back_menu").show();
         	$("."+$(this).attr("id")).show();
         }
     },
@@ -49,6 +50,7 @@ var tools = {
     evGoBack : function(){
     	$("#content_inner").scrollTop(0);
     	$(".menu").show();
+		$("#back_menu").hide();		
 		$(".submenu").hide();
     },
                 
@@ -78,9 +80,7 @@ var tools = {
              
     },
                 
-    goToPage : function (page, hideMenu){
-        hideMenu = typeof hideMenu !== 'undefined' ? hideMenu : true;
-        
+    goToPage : function (page){
         $(document).unbind('vmouseup');
         $("#left").unbind('tap');
         $("#right").unbind('tap');
@@ -97,11 +97,9 @@ var tools = {
             $("#btn_home").bind('tap', tools.evHome);
         });
 		$("#btn_slider").animate({left: btnWidth * page}, 500);
-        if (hideMenu){
-        	$(".menu").show();
-    		$(".submenu").hide();
-    		$("#menu_sections").hide();
-        }
+//		$(".menu").show();
+//		$(".submenu").hide();
+		$("#menu_sections").hide();
     },
     showHideMenu : function(){
         $("#menu_sections").toggle();
