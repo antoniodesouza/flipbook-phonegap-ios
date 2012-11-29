@@ -36,13 +36,20 @@ var tools = {
                 
     evOptMenu : function (){
         position = parseInt($(this).attr("rel"));
-        
-        if ($(this).parent().children("ul").length > 0){
-            $(this).parent().children("ul").toggle();
-            tools.goToPage(position, false);
+        if (position > 0){
+        	tools.goToPage(position);
         }else{
-            tools.goToPage(position, true);
+        	$(".menu").hide();
+        	$(".submenu").hide();
+        	$("#content_inner").scrollTop(0);
+        	$("."+$(this).attr("id")).show();
         }
+    },
+    
+    evGoBack : function(){
+    	$("#content_inner").scrollTop(0);
+    	$(".menu").show();
+		$(".submenu").hide();
     },
                 
     evHome : function (){
@@ -91,6 +98,7 @@ var tools = {
         });
 		$("#btn_slider").animate({left: btnWidth * page}, 500);
         if (hideMenu){
+        	$(".menu").show();
     		$(".submenu").hide();
     		$("#menu_sections").hide();
         }

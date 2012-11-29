@@ -29,12 +29,12 @@ $(document).bind('pageinit',function(){
     $('#slideInner').css('height', slideInnerHeight);
 
     $(document).bind('vmouseup',tools.evMouseUp);
+    $("#header_menu").bind('tap', tools.evGoBack);
     $("#btn_left").bind('tap', tools.evLeft);
     $("#btn_right").bind('tap', tools.evRight);
     $("#nav-content li").bind('tap', tools.evContent);
     $("#btn_home").bind('tap', tools.evHome);
     $('#btn_menu').bind('tap', tools.showHideMenu);
-    $("#content_inner li > a").bind('tap', tools.evOptMenu);
-    $("#content_inner li ul li").bind('tap', tools.evOptMenu);
+    $("#content_inner li").bind('tap', tools.evOptMenu);
     $(document).bind('vmousedown', tools.updateScroll);
 });

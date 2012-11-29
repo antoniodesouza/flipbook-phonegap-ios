@@ -187,16 +187,15 @@ body {
     margin:0;
     padding:0;
 }
-#container #menu_sections #content_menu #content_inner ul li a{
+#container #menu_sections #content_menu #content_inner ul li{
     color:#667083;
     display:inline-block;
-    min-height:83px;
+    height:83px;
     font-size:18px;
     line-height:83px;
     text-shadow: #FFF 2px 2px 6px;
 	vertical-align : top;
     min-width:233px;
-    text-decoration: none;
 }
 #container #menu_sections #content_menu #content_inner ul li img{
     display: inline-block;
@@ -213,9 +212,19 @@ body {
 #container #menu_sections #content_menu #content_inner ul.submenu li{
     color:#667083;
     display:block;
+    line-height:15px;
     height:45px;
-    font-size:14px;
+    font-size:16px;
     text-shadow: #FFF 2px 2px 6px;
     vertical-align : top;
     min-width:233px;
+}
+
+#container #menu_sections #content_menu #content_inner ul.submenu li.first{
+    height:83px;
+    font-size:18px;
+    line-height:83px;
+    text-shadow: #FFF 2px 2px 6px;
+    vertical-align : top;
+    margin: 0 0 10px 0;
 }
