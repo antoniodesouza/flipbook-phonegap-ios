@@ -5,12 +5,11 @@ html
 
 #page
 {
+	
 	z-index: 1;
-	width: 1200px;
-	min-height: 667px;
-	padding-bottom: 13px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 1024px;
+	height:510px;
+	background:#FFF;
 }
 
 #pppu2729-4
@@ -500,11 +499,8 @@ html
 
 #pu2395
 {
-	width: 0.01px;
+	width: 1024x;
 	position: relative;
-	margin-right: -1px;
-	margin-top: 61px;
-	left: 6px;
 }
 
 #u2395
@@ -539,9 +535,7 @@ html
 #pu2412
 {
 	width: 0.01px;
-	position: relative;
-	margin-right: -1px;
-	left: 44px;
+	position: absolute;
 }
 
 #u2412
@@ -560,13 +554,12 @@ html
 	width: 147px;
 	min-height: 22px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 14px;
 	letter-spacing: 0px;
 	color: #FFFFFF;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS","BEBAS-2",sans-serif;
 	font-weight: 400;
 	position: relative;
-	margin-right: -147px;
 	margin-top: 11px;
 }
 
@@ -659,7 +652,7 @@ html
 {
 	width: 0.01px;
 	margin-left: 35px;
-	margin-top: 101px;
+	margin-top: 65px;
 	position: relative;
 }
 
@@ -672,7 +665,7 @@ html
 	font-size: 14px;
 	letter-spacing: 1px;
 	color: #000000;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS","BEBAS-2",sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -47px;
@@ -696,15 +689,13 @@ html
 {
 	width: 0.01px;
 	position: relative;
-	margin-right: -1px;
-	margin-top: 12px;
-	left: 607px;
+	left: 539px;
 }
 
 #u2408
 {
 	z-index: 96;
-	width: 524px;
+	width: 485px;
 	position: relative;
 }
 
@@ -716,8 +707,8 @@ html
 #pu2415-4
 {
 	width: 0.01px;
-	margin-left: 82px;
-	margin-top: 11px;
+	margin-left: 34px;
+	margin-top: 26px;
 	position: relative;
 }
 
@@ -730,8 +721,7 @@ html
 	color: #A8A8A8;
 	font-size: 10px;
 	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
-	position: relative;
-	margin-right: -360px;
+	position: absolute;
 }
 
 #u2417-4
@@ -743,10 +733,9 @@ html
 	font-size: 14px;
 	letter-spacing: 1px;
 	color: #000000;
-	font-family: bebas-neue-n4, bebas-neue, sans-serif;
+	font-family: "BEBAS","BEBAS-2",sans-serif;
 	font-weight: 400;
-	position: relative;
-	margin-right: -31px;
+	position: absolute;
 	left: 411px;
 }
 
