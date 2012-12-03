@@ -5,13 +5,13 @@
     versionCode="10"
     xmlns="http://www.w3.org/ns/widgets" >
 
-    <name>Flip Book</name>
+    <name>Portafolio Arias Serna Saravia</name>
 
     <description>
-        This is a flip book
+        Este es el Portafolio Corporativo Digital de la firma colombiana Arias Serna Saravia
     </description>
 
-    <author email="support@phonegap.com" href="https://build.phonegap.com" >
+    <author email="catillolu@gmail.com" href="https://build.phonegap.com" >
         The author
     </author>
     
@@ -19,5 +19,6 @@
     <preference name="webviewbounce" value="false" />
     <preference name="fullscreen" value="false" />
      
-    <icon src="images/icon.png" gap:platform="ios" width="72" height="72" />
+    <icon src="images/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<gap:splash src="images/splash.jpg" width="1024" height="768" />
 </widget>
