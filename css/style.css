@@ -181,7 +181,6 @@ body {
 }
 #container #menu_sections #header_menu #back_menu{
     background: url("../images/arrow_menu.png") no-repeat scroll 3px 2px transparent;
-    display : none;
     float: left;
     height : 32px;
     width : 32px;
