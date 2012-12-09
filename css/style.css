@@ -151,9 +151,9 @@ body {
 #container #menu_sections{
     display : none;
     height:430px;
-    left:14px;
+    left:1px;
     position:absolute;
-    top:67px;
+    top:50px;
     width:296px;
     z-index : 99999;
 }
