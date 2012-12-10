@@ -12,7 +12,7 @@
     </description>
 
     <author email="catillolu@gmail.com" href="https://build.phonegap.com" >
-        The author
+        Arias Serna Saravia
     </author>
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="orientation" value="landscape" />
@@ -20,5 +20,6 @@
     <preference name="fullscreen" value="false" />
      
     <icon src="images/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="images/icon-57.png" gap:platform="ios" width="57" height="57" />
 	<gap:splash src="images/landscape.png" width="1024" height="768" />
 </widget>
