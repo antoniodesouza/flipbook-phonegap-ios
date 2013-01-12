@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:gap="http://phonegap.com/ns/1.0"
     id="portafolio.arias.serna.saravia"
-    version="1.0.0"
+    version="1.0.1"
     versionCode="10"
     xmlns="http://www.w3.org/ns/widgets" >
 
@@ -11,8 +11,8 @@
         Este es el Portafolio Corporativo Digital de la firma colombiana Arias Serna Saravia
     </description>
 
-    <author email="catillolu@gmail.com" href="https://build.phonegap.com" >
-        Arias Serna Saravia
+    <author email="catillolu@gmail.com" href="https://digitalsolutionsweb.com" >
+        Luis Alberto Castillo
     </author>
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="orientation" value="landscape" />
